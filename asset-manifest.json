@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Linkedin-Home/static/css/main.c826e372.chunk.css",
+    "main.js": "/Linkedin-Home/static/js/main.a8aaf2ba.chunk.js",
+    "main.js.map": "/Linkedin-Home/static/js/main.a8aaf2ba.chunk.js.map",
+    "runtime-main.js": "/Linkedin-Home/static/js/runtime-main.45584695.js",
+    "runtime-main.js.map": "/Linkedin-Home/static/js/runtime-main.45584695.js.map",
+    "static/js/2.de1fb1bc.chunk.js": "/Linkedin-Home/static/js/2.de1fb1bc.chunk.js",
+    "static/js/2.de1fb1bc.chunk.js.map": "/Linkedin-Home/static/js/2.de1fb1bc.chunk.js.map",
+    "index.html": "/Linkedin-Home/index.html",
+    "precache-manifest.665651a2419334da6c795a165a71e47b.js": "/Linkedin-Home/precache-manifest.665651a2419334da6c795a165a71e47b.js",
+    "service-worker.js": "/Linkedin-Home/service-worker.js",
+    "static/css/main.c826e372.chunk.css.map": "/Linkedin-Home/static/css/main.c826e372.chunk.css.map",
+    "static/js/2.de1fb1bc.chunk.js.LICENSE.txt": "/Linkedin-Home/static/js/2.de1fb1bc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45584695.js",
+    "static/js/2.de1fb1bc.chunk.js",
+    "static/css/main.c826e372.chunk.css",
+    "static/js/main.a8aaf2ba.chunk.js"
+  ]
+}
