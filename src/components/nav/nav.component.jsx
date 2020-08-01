@@ -60,6 +60,23 @@ function Nav() {
               />
             </div>
           </form>
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a className="nav-link">
+                <i class="far fa-comment"></i>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link">
+                <i class="fas fa-flag"></i>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link">
+                <i class="fas fa-user-circle"></i>
+              </a>
+            </li>
+          </ul>
         </div>
       </nav>
       <br />

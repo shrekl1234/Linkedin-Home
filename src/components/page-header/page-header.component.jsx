@@ -2,7 +2,7 @@ import React from "react";
 import "./page-header.styles.css";
 function PageHeader(props) {
   return (
-    <div className="jumbotron pt-2 pb-0 px-0">
+    <div className="jumbotron pt-2 pb-0 px-0 pageHeaderBox">
       <div className="row" style={{ textAlign: "center" }}>
         <div className="col-lg-2" />
         <div
@@ -21,9 +21,8 @@ function PageHeader(props) {
           <a
             href="#"
             onClick={() => props.setPageHeader("Posts")}
-            className="hover"
+            
             id="Posts"
-            style={props.pageHeader === "Posts" ? { color: "#311d3f" } : {}}
           >
             Posts
           </a>
@@ -44,9 +43,8 @@ function PageHeader(props) {
           <a
             href="#"
             onClick={() => props.setPageHeader("Articles")}
-            className="hover"
+            
             id="Articles"
-            style={props.pageHeader === "Articles" ? { color: "#311d3f" } : {}}
           >
             Articles
           </a>
@@ -67,9 +65,8 @@ function PageHeader(props) {
           <a
             href="#"
             onClick={() => props.setPageHeader("Companies")}
-            className="hover"
+            
             id="Companies"
-            style={props.pageHeader === "Companies" ? { color: "#311d3f" } : {}}
           >
             Companies
           </a>
@@ -91,8 +88,7 @@ function PageHeader(props) {
             href="#"
             onClick={() => props.setPageHeader("Jobs")}
             id="Jobs"
-            className="hover"
-            style={props.pageHeader === "Jobs" ? { color: "#311d3f" } : {}}
+            
           >
             Jobs
           </a>

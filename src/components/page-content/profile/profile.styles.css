@@ -1,0 +1,13 @@
+.profile {
+  border-radius: 1px;
+  background-color: white;
+  text-align: center;
+  border: #ced4da solid 1px;
+}
+.profile span {
+  color: #bbbbbb;
+  font-size: large;
+}
+.border-top {
+    border-top: #ced4da solid 2px;
+}

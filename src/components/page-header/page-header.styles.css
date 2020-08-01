@@ -1,12 +1,21 @@
 .hover:hover {
-  color: #251f44;
   transition-duration: .2s;
-  font-weight: 400;
-  margin: auto;
-  padding: auto;
   transform: scale(1.1);
-  text-decoration: none;
   cursor: pointer;
 }
 
+.hover a:hover{
+  color: blue;
+  text-decoration: none;
+}
 
+.pageHeaderBox{
+  border: solid #CED4DA;
+  border-width:  2px 0;
+  
+}
+
+
+.hover a{
+  color: #838383;
+}
