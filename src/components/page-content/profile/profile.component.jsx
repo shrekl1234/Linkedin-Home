@@ -2,9 +2,33 @@ import React from "react";
 import "./profile.styles.css";
 
 function Profile() {
+  const [show, setShow] = React.useState(true);
+  function handleClick() {
+    setShow(!show);
+    if (show) {
+      {
+        document.getElementById("profile").removeAttribute("hidden");
+        document.getElementById("showProfileBtn").innerText = "Hide Profile";
+        
+      }
+    } else {
+      {
+        document.getElementById("profile").setAttribute("hidden", "true");
+        document.getElementById("showProfileBtn").innerText = "Show Profile";
+      }
+    }
+  }
+
   return (
-    <div className="profile p">
-      <div className="container  border-zrey">
+    <div className="profile " style={{textAlign: "center"}}>
+        <button id="showProfileBtn" className="btn btn-primary btn-sm" onClick={handleClick}>
+          Show Profile
+        </button>
+      <div
+        id="profile"
+        className="container  border-zrey .d-sm-none .d-md-none"
+        hidden
+      >
         <div className="row">
           {/* profile photos */}
           <div className="col col-lg-12 m-auto py-4 ">
