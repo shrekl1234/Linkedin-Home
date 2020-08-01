@@ -1,0 +1,19 @@
+.postedPost{
+   background-color: white;
+  border: #ced4da solid 1px;
+  border-radius: 2px;
+}
+
+.likeCmntShare .col-lg-4:hover{
+cursor: pointer;
+transform: scale(1.2);
+transition-duration: .5s;
+}
+
+.postColorZrey{
+    color: #bbbbc1;
+}
+
+.addComment{
+    border: none;
+}
