@@ -1,5 +1,5 @@
 import React from "react";
-import './profile.styles.css';
+import "./profile.styles.css";
 
 function Profile() {
   return (
@@ -22,12 +22,11 @@ function Profile() {
         </div>
         <div className="row border-top">
           {/* Connections */}
-          <div
-            className="col col-lg-6  p-4"
-            style={{ borderRight: "#ced4da solid 1px" }}
-          >
+          <div className="col col-lg-6  p-4">
             <h5>358</h5>
-            <span style={{position: "relative", right: "8px"}}>Connections</span>
+            <span style={{ position: "relative", right: "8px" }}>
+              Connections
+            </span>
           </div>
           {/* Views */}
           <div

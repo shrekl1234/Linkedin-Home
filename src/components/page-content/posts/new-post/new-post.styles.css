@@ -1,0 +1,17 @@
+.newPost{
+  background-color: white;
+  border: #ced4da solid 1px;
+  border-radius: 2px;
+}
+
+.small-font a{
+    font-size: smaller;
+}
+
+.border-zrey{
+    border-bottom: #ced4da solid 2px;
+}
+
+.inputText{
+    border: transparent;
+}
